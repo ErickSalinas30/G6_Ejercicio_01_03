@@ -47,6 +47,38 @@ public class Ejercicio_01_03 {
         System.out.println(jack.mostrarInfo());
         System.out.println(josep.mostrarInfo());
         
+        var juan=new Estudiante("Juan Fernandez",2003,"0152653288",5);
+        juan.setNombre("Juan Fernandez");
+        juan.setfNacimiento(2003);
+        
+        var pallo=new Estudiante("Myrka Pallo",2000,"0158653288",2);
+        pallo.setNombre("Myrka Pallo");
+        pallo.setfNacimiento(2000);
+        
+        var nt=new Calificacion(8.5);
+        nt.setNota(8.5);
+                
+        var progra=new Asignatura("Programacion Orientada a Objetos",2,"Intermedia");
+        progra.setNombre("Programacion Orientada a Objetos");
+        progra.setDificultad("Intermedia");
+        
+        System.out.println(juan.mostrarInfo());
+        System.out.println(pallo.mostrarInfo());
+        
+        var ernes=new Propietario("Hernesto De la Cruz",1995,"0152152844",15);
+        ernes.setNombre("Hernesto De la Cruz");
+        ernes.setfNacimiento(1995);
+        
+        var auto=new Auto(12500,"Gris","Toyota");
+        auto.setBoss(ernes);
+        
+        var mat=new Matricula("Plastico","AGS1854");
+        mat.setMaterial("Plastico");
+        
+        System.out.println(ernes.mostrarInfo());
+        System.out.println(mat.mostrarInfoMatricula());
+        
+        
         
         
         
