@@ -10,6 +10,8 @@ package com.mycompany.ejercicio_01_03;
  */
 public class Personaje extends Persona {
     private String rValor;
+    private Actor actor;
+    private Pelicula movie;
     
     public Personaje(String nombre,int fN, String rV){
         this.rValor= rV;
@@ -22,6 +24,25 @@ public class Personaje extends Persona {
     public void setrValor(String rValor) {
         this.rValor = rValor;
     }
+
+    public Actor getActor() {
+        return actor;
+    }
+
+    public void setActor(Actor actor) {
+        this.actor = actor;
+    }
+
+    public Pelicula getMovie() {
+        return movie;
+    }
+
+    public void setMovie(Pelicula movie) {
+        this.movie = movie;
+    }
+    
+    
+    
 
     @Override
     public String mostrarInfo() {
